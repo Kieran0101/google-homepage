@@ -1,0 +1,118 @@
+*{
+    font-family: arial, sans-sarif
+    margin: 0px;
+    font-size: 13px;
+}
+.header{
+    font-size: 13px;
+    margin-top: 24px;
+    margin-left: 18px;
+    margin-right: 10px;
+}
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline;
+    font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(53, 53, 53);
+}
+a:hover {
+  text-decoration: underline;
+}
+.headerleft {
+    float: left;
+    padding: 15px;
+}
+.headerright {
+    float: right;
+    padding: 15px;
+}
+img {
+    display: relative;
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    height: auto;
+}
+#search-bar{
+    position: relative;
+    left: 45px;
+    top: 17px;
+    background-image: url(./magnifying-glass.jpg);
+    background-position: 4px 7px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-left: 38px;
+    width: 530px;
+    height: 44px;
+    z-index: 1;
+    margin: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    -webkit-tap-highlight-color: transparent;
+}
+#search-bar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+#search-bar:focus{
+    outline: none;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 7px 16px 0 16px;
+    line-height: 27px;
+    height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    text-decoration: none;
+}
+.footer-container: {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+.footer-container-left {
+    float:left;
+    padding: 15px;
+}
+.footer-container-right {
+    float:right;
+    padding: 15px;
+}
+.footer{
+    padding-left: 27px;
+    color: rgb(95, 99, 104);
+} 
